@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Dates from "./components/Dates";
+import Calendar from "./components/Calendar";
 import "./App.css";
 
 function App() {
@@ -9,10 +8,10 @@ function App() {
         <img src="/Logo.svg" />
       </header>
       <main>
-        <Dates />
+        <Calendar />
       </main>
       <footer>
-        <span>Made by</span>
+        <span>Made by </span>
         <a target="_blank" href="https://github.com/rubenolander">
           Ruben Olander
         </a>
