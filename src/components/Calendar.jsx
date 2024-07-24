@@ -120,8 +120,9 @@ const Calendar = () => {
 
   const [imageSource, setImageSource] = useState("/template.png");
 
-  const print = document.querySelector(".calendar-container");
-
+  const handlePrint = () => {
+    window.print();
+  };
   return (
     <>
       <div className="selects-container">
@@ -162,7 +163,7 @@ const Calendar = () => {
           </select>
           <button
             onClick={() => {
-              print();
+              handlePrint();
             }}
           ></button>
         </div>
